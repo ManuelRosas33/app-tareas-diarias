@@ -1,0 +1,72 @@
+
+body {
+     padding: 20px;
+     background-color: #d7d7d7;
+}
+
+h1, h2 {
+     text-align: center;
+     margin-bottom: 20px;
+}
+
+
+.tareas, .listado-tareas {
+     max-width: 900px;
+     margin: 0 auto;
+     background-color: #818181;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+     border: none;
+     border-radius: 5px;
+     width: 100%;
+     max-width: 750px; /* Ancho máximo en pantallas grandes */
+}
+
+.boton-agregar-container {
+     display: flex;
+     justify-content: flex-end;
+     margin-top: 10px;
+     border-radius: 3px;
+}
+.d-flex {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+/* Estilos para movil */
+@media (min-width: 576px) {
+     .d-flex {
+          flex-direction: row;
+     }
+
+     .d-flex div {
+          width: 80%;
+     }
+
+     .btn {
+          width: 100%;
+          max-width: 120px;
+          align-self: center;
+     }
+}
+
+.listado div {
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+     border-bottom: 1px solid #e0e0e0;
+}
+
+.listado label {
+     margin-right: auto;
+}
+
+.boton-agregar {
+     margin-top: 10px;
+     width: 100%;
+}
